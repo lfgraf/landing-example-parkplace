@@ -1,8 +1,8 @@
 import Image from "next/image";
 
+import Team from "@/components/team";
 import HeroSection from "@/components/hero-section";
 import Content from "@/components/content";
-import Feature from "@/components/feature";
 import Contact from "@/components/contact";
 
 export default function Home() {
@@ -10,7 +10,7 @@ export default function Home() {
     <main>
       <HeroSection />
       <Content />
-      <Feature />
+      <Team />
       <Contact />
     </main>
   );

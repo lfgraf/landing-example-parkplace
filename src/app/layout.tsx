@@ -1,3 +1,4 @@
+import 'tailwindcss/tailwind.css';
 import "../styles/globals.css";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -21,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Header />
+        {/* <Header /> */}
         {children}
         <Footer />
       </body>

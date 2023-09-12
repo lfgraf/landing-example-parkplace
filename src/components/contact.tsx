@@ -1,94 +1,126 @@
-import React from "react";
-import ContactForm from "./form";
-
-const Contact = () => {
+export default function Example() {
   return (
-    <section className="text-gray-600 body-font relative">
-      <div className="container px-5 py-24 mx-auto">
-        <div className="flex flex-col text-center w-full mb-12">
-          <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
-            Contact Us
-          </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-            gentrify.
-          </p>
-        </div>
-        <div className="lg:w-1/2 md:w-2/3 mx-auto">
-          <div className="flex flex-wrap -m-2">
-            <ContactForm />
-            <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
-              <a className="text-indigo-500">example@email.com</a>
-              <p className="leading-normal my-5">
-                49 Smith St.
-                <br />
-                Saint Cloud, MN 56301
+    <div className="bg-white py-24 sm:py-32">
+      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        <div className="mx-auto max-w-2xl space-y-16 divide-y divide-gray-100 lg:mx-0 lg:max-w-none">
+          <div className="grid grid-cols-1 gap-x-8 gap-y-10 lg:grid-cols-3">
+            <div>
+              <h2 className="text-3xl font-bold tracking-tight text-gray-900">Get in touch</h2>
+              <p className="mt-4 leading-7 text-gray-600">
+                Quam nunc nunc eu sed. Sed rhoncus quis ultricies ac pellentesque.
               </p>
-              <span className="inline-flex">
-                <a className="text-gray-500">
-                  <svg
-                    fill="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    className="w-5 h-5"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-                  </svg>
-                </a>
-                <a className="ml-4 text-gray-500">
-                  <svg
-                    fill="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    className="w-5 h-5"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-                  </svg>
-                </a>
-                <a className="ml-4 text-gray-500">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    className="w-5 h-5"
-                    viewBox="0 0 24 24"
-                  >
-                    <rect
-                      width="20"
-                      height="20"
-                      x="2"
-                      y="2"
-                      rx="5"
-                      ry="5"
-                    ></rect>
-                    <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
-                  </svg>
-                </a>
-                <a className="ml-4 text-gray-500">
-                  <svg
-                    fill="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    className="w-5 h-5"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
-                  </svg>
-                </a>
-              </span>
+            </div>
+            <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:col-span-2 lg:gap-8">
+              <div className="rounded-2xl bg-gray-50 p-10">
+                <h3 className="text-base font-semibold leading-7 text-gray-900">Collaborate</h3>
+                <dl className="mt-3 space-y-1 text-sm leading-6 text-gray-600">
+                  <div>
+                    <dt className="sr-only">Email</dt>
+                    <dd>
+                      <a className="font-semibold text-indigo-600" href="mailto:collaborate@example.com">
+                        collaborate@example.com
+                      </a>
+                    </dd>
+                  </div>
+                  <div className="mt-1">
+                    <dt className="sr-only">Phone number</dt>
+                    <dd>+1 (555) 905-2345</dd>
+                  </div>
+                </dl>
+              </div>
+              <div className="rounded-2xl bg-gray-50 p-10">
+                <h3 className="text-base font-semibold leading-7 text-gray-900">Press</h3>
+                <dl className="mt-3 space-y-1 text-sm leading-6 text-gray-600">
+                  <div>
+                    <dt className="sr-only">Email</dt>
+                    <dd>
+                      <a className="font-semibold text-indigo-600" href="mailto:press@example.com">
+                        press@example.com
+                      </a>
+                    </dd>
+                  </div>
+                  <div className="mt-1">
+                    <dt className="sr-only">Phone number</dt>
+                    <dd>+1 (555) 905-3456</dd>
+                  </div>
+                </dl>
+              </div>
+              <div className="rounded-2xl bg-gray-50 p-10">
+                <h3 className="text-base font-semibold leading-7 text-gray-900">Join our team</h3>
+                <dl className="mt-3 space-y-1 text-sm leading-6 text-gray-600">
+                  <div>
+                    <dt className="sr-only">Email</dt>
+                    <dd>
+                      <a className="font-semibold text-indigo-600" href="mailto:careers@example.com">
+                        careers@example.com
+                      </a>
+                    </dd>
+                  </div>
+                  <div className="mt-1">
+                    <dt className="sr-only">Phone number</dt>
+                    <dd>+1 (555) 905-4567</dd>
+                  </div>
+                </dl>
+              </div>
+              <div className="rounded-2xl bg-gray-50 p-10">
+                <h3 className="text-base font-semibold leading-7 text-gray-900">Say hello</h3>
+                <dl className="mt-3 space-y-1 text-sm leading-6 text-gray-600">
+                  <div>
+                    <dt className="sr-only">Email</dt>
+                    <dd>
+                      <a className="font-semibold text-indigo-600" href="mailto:hello@example.com">
+                        hello@example.com
+                      </a>
+                    </dd>
+                  </div>
+                  <div className="mt-1">
+                    <dt className="sr-only">Phone number</dt>
+                    <dd>+1 (555) 905-5678</dd>
+                  </div>
+                </dl>
+              </div>
+            </div>
+          </div>
+          <div className="grid grid-cols-1 gap-x-8 gap-y-10 pt-16 lg:grid-cols-3">
+            <div>
+              <h2 className="text-3xl font-bold tracking-tight text-gray-900">Locations</h2>
+              <p className="mt-4 leading-7 text-gray-600">
+                Consequat sunt cillum cillum elit sint. Qui occaecat nisi in ipsum commodo.
+              </p>
+            </div>
+            <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:col-span-2 lg:gap-8">
+              <div className="rounded-2xl bg-gray-50 p-10">
+                <h3 className="text-base font-semibold leading-7 text-gray-900">Los Angeles</h3>
+                <address className="mt-3 space-y-1 text-sm not-italic leading-6 text-gray-600">
+                  <p>4556 Brendan Ferry</p>
+                  <p>Los Angeles, CA 90210</p>
+                </address>
+              </div>
+              <div className="rounded-2xl bg-gray-50 p-10">
+                <h3 className="text-base font-semibold leading-7 text-gray-900">New York</h3>
+                <address className="mt-3 space-y-1 text-sm not-italic leading-6 text-gray-600">
+                  <p>886 Walter Street</p>
+                  <p>New York, NY 12345</p>
+                </address>
+              </div>
+              <div className="rounded-2xl bg-gray-50 p-10">
+                <h3 className="text-base font-semibold leading-7 text-gray-900">Toronto</h3>
+                <address className="mt-3 space-y-1 text-sm not-italic leading-6 text-gray-600">
+                  <p>7363 Cynthia Pass</p>
+                  <p>Toronto, ON N3Y 4H8</p>
+                </address>
+              </div>
+              <div className="rounded-2xl bg-gray-50 p-10">
+                <h3 className="text-base font-semibold leading-7 text-gray-900">Chicago</h3>
+                <address className="mt-3 space-y-1 text-sm not-italic leading-6 text-gray-600">
+                  <p>726 Mavis Island</p>
+                  <p>Chicago, IL 60601</p>
+                </address>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-  );
-};
-
-export default Contact;
+    </div>
+  )
+}
