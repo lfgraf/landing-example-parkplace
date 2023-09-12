@@ -1,3 +1,4 @@
+import Image from "next/image"
 export default function HeroSection() {
   return (
     <div className="bg-white">
@@ -5,7 +6,7 @@ export default function HeroSection() {
         <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
           <div className="flex lg:flex-1">
             <a href="#">
-              <img
+              < Image
                 className="h-8 w-auto"
                 src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
                 alt="Your Company"
@@ -35,7 +36,7 @@ export default function HeroSection() {
                 </a>
               </div>
             </div>
-            <img
+            < Image
               src="https://images.unsplash.com/photo-1567532900872-f4e906cbf06a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1280&q=80"
               alt=""
               className="mt-10 aspect-[6/5] w-full max-w-lg rounded-2xl object-cover shadow-xl sm:mt-16 lg:mt-0 lg:max-w-none xl:row-span-2 xl:row-end-2 xl:mt-36"
